@@ -1,0 +1,10 @@
+name: Test React
+
+on: [push]
+
+jobs:
+  uno:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje
+        run: echo "Hello World"
